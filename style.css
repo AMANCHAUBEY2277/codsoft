@@ -2,71 +2,117 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
 }
+/*
+font-family: 'Dancing Script', cursive;
 
-body{
-    min-height: 100vh;
-    max-height: 1000%;
+*/
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #0ab5f3;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    /* display: grid;
-    place-items: center; */
-    background: linear-gradient(45deg, #0a0a0a, #3a4452);
 }
 
-.calculator{
-    padding: 15px;
-    box-shadow: 0 0 15px #000;
-    border: 2px solid rgb(116,114,114);
-    border-radius: 15px;
+.nav1 i{
+    margin: 0 5px;
 }
 
-.display input{
-    width: 360px;
-    border: none;
-    outline: none;
-    padding: 20px;
-    margin: 10px;
-    background: transparent;
-    color: #fff;
-    font-size: 40px;
-    text-align: right;
-    cursor: pointer;
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: #e67e22;
 }
 
-input::placeholder{
-    color: #fff;
+.nav2{
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    
 }
 
-button{
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-    background: transparent;
-    color: #fff;
-    font-size: 22px;
-    font-weight: 600;
-    border: 0;
-    box-shadow: -5px -6px 15px #000;
-    outline: 1px solid #313131;
-    outline-offset: 3px;
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    tab-size: 100px;
 }
 
-button:active{
-    background: #000;
-    transform: translate(2px, 2px);
+header
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/qmraJpx/two-businessmen-with-laptop-having-meeting_e1phrg9y_thumbnail-1080_01.png');
+    background-color: 100% 100%;
 }
 
-.opr{
-    color: #fbff00;
-    background: #1e1919;
-    font-weight: 700;
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.h1-text h1{
+    font-size: 3em;
+    font-family:'Dancing Script', cursive;
+    justify-content: space-between;
+}
+.h-text span{
+    color: #e67e22;
+    font-family:'Dancing Script', cursive;
+}
+.h-text p{
+    font-size: 20px;
+    margin: 40px 0;
+    line-height: 30px;
 }
 
-#eqBtn{
+.h-text a{
+    text-decoration: none;
+    color: white;
+    background: #e67e22;
+    padding: 10px 20px;
+    margin: 0 15px;
+    letter-spacing: 5px;
+}
+
+.nav3{
+    width: 100%;
+    height: 250px;
+    color: white;
+    background:#0ab5f3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav3 i{
+    margin: 0 5px;
+}
+
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
     background: orangered;
-    font-weight: 900;
 }
+
+
+
+
+
+
+
+
